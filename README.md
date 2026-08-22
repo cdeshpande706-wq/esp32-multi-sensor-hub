@@ -11,12 +11,19 @@ The ESP32 simultaneously:
 - Controlled a servo through PWM
 - Used the distance measurement to determine the servo position
 
-Example output:
+
+## Status
+
+**Completed — Wokwi simulation**
+## Simulation Evidence
+
+The complete system was tested in Wokwi with all three peripherals operating simultaneously.
+
+![ESP32 Multi-Sensor Hub Test](docs/images/esp32-multi-sensor-hub-test.png)
+
+### Example Output
 
 ```text
 Accel X: 0.00 | Y: 0.00 | Z: 9.81
 Distance: 403.57 cm
 Servo Position: 90°
-Status
-
-Completed
