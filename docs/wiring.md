@@ -20,3 +20,23 @@ The sensor returned:
 - Z acceleration: approximately 9.81 m/s²
 
 This confirms successful I²C communication and sensor data acquisition.
+## HC-SR04 — GPIO Interface
+
+The HC-SR04 is connected to the ESP32 using digital GPIO pins for trigger and echo timing.
+
+| HC-SR04 Pin | ESP32 Pin |
+|-------------|-----------|
+| VCC | 5V |
+| GND | GND |
+| TRIG | GPIO 18 |
+| ECHO | GPIO 19 |
+
+### Test Result
+
+The ESP32 successfully triggered the HC-SR04 and measured the returned echo signal.
+
+Example simulation output:
+
+- Distance: approximately 403.45 cm
+
+This confirms successful GPIO-based sensor control and distance measurement.
