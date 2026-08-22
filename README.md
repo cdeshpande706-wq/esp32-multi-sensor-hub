@@ -17,3 +17,6 @@ Example output:
 Accel X: 0.00 | Y: 0.00 | Z: 9.81
 Distance: 403.57 cm
 Servo Position: 90°
+Status
+
+Completed
